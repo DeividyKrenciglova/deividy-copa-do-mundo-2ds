@@ -1,0 +1,1774 @@
+<!doctype html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Copa do Mundo 1930–2022 — Todas as Edições</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700;800;900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- ===== SCROLL PROGRESS ===== -->
+        <div class="scroll-progress" id="scrollProgress"></div>
+
+        <!-- ===== NAVBAR ===== -->
+        <header class="navbar" id="navbar">
+            <nav class="nav-container" aria-label="Navegação principal">
+                <a href="#home" class="nav-logo" aria-label="Voltar ao topo">
+                    <svg
+                        width="28"
+                        height="28"
+                        viewBox="0 0 28 28"
+                        fill="none"
+                        aria-hidden="true"
+                    >
+                        <circle
+                            cx="14"
+                            cy="14"
+                            r="13"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                        />
+                        <path
+                            d="M10 14l3 3 5-6"
+                            stroke="currentColor"
+                            stroke-width="1.5"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                        />
+                    </svg>
+                    <span>World Cup</span>
+                </a>
+                <ul class="nav-menu" id="navMenu" role="list">
+                    <li role="listitem">
+                        <a href="#home" class="nav-link active">Início</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#timeline" class="nav-link">História</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#champions" class="nav-link">Campeões</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#editions" class="nav-link">Edições</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#records" class="nav-link">Recordes</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#scorers" class="nav-link">Artilheiros</a>
+                    </li>
+                    <li role="listitem">
+                        <a href="#curiosities" class="nav-link">Curiosidades</a>
+                    </li>
+                </ul>
+                <button
+                    class="hamburger"
+                    id="hamburger"
+                    aria-label="Abrir menu"
+                    aria-expanded="false"
+                >
+                    <span></span><span></span><span></span>
+                </button>
+            </nav>
+        </header>
+
+        <!-- ===== HERO ===== -->
+        <section class="hero" id="home">
+            <div class="hero-gradient"></div>
+            <div class="hero-noise"></div>
+            <div class="hero-content">
+                <div class="hero-badge">92 anos de história</div>
+                <h1 class="hero-title">
+                    Todas as Copas<br />
+                    <span class="hero-highlight">1930 – 2022</span>
+                </h1>
+                <p class="hero-text">
+                    Das 13 seleções no Uruguai aos 32 times no Catar. 22
+                    edições, 8 campeões diferentes,<br class="hide-mobile" />
+                    mais de 2.700 gols. A história completa da maior competição
+                    do planeta.
+                </p>
+                <div class="hero-actions">
+                    <a href="#timeline" class="btn btn-primary"
+                        >Explorar a linha do tempo</a
+                    >
+                    <a href="#editions" class="btn btn-ghost"
+                        >Ver todas as edições
+                        <svg
+                            width="14"
+                            height="14"
+                            viewBox="0 0 14 14"
+                            fill="none"
+                            aria-hidden="true"
+                        >
+                            <path
+                                d="M4 2l5 5-5 5"
+                                stroke="currentColor"
+                                stroke-width="1.5"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <span>Role para explorar</span>
+                <svg
+                    width="16"
+                    height="20"
+                    viewBox="0 0 16 20"
+                    fill="none"
+                    aria-hidden="true"
+                >
+                    <rect
+                        x="1"
+                        y="1"
+                        width="14"
+                        height="18"
+                        rx="7"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                    />
+                    <circle
+                        cx="8"
+                        cy="7"
+                        r="1.5"
+                        fill="currentColor"
+                        class="scroll-dot"
+                    />
+                </svg>
+            </div>
+        </section>
+
+        <!-- ===== OVERVIEW ===== -->
+        <section class="overview">
+            <div class="container">
+                <div class="overview-grid">
+                    <div class="overview-stat">
+                        <span class="overview-number">22</span>
+                        <span class="overview-label">Edições</span>
+                    </div>
+                    <div class="overview-stat">
+                        <span class="overview-number">8</span>
+                        <span class="overview-label">Países campeões</span>
+                    </div>
+                    <div class="overview-stat">
+                        <span class="overview-number">80</span>
+                        <span class="overview-label">Seleções diferentes</span>
+                    </div>
+                    <div class="overview-stat">
+                        <span class="overview-number">964</span>
+                        <span class="overview-label">Jogos disputados</span>
+                    </div>
+                    <div class="overview-stat">
+                        <span class="overview-number">2.721</span>
+                        <span class="overview-label">Gols marcados</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TIMELINE ===== -->
+        <section class="section" id="timeline">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">História</span>
+                    <h2 class="section-title">Linha do Tempo</h2>
+                    <p class="section-desc">
+                        A evolução da Copa do Mundo desde sua criação em 1930
+                        até a última edição no Catar.
+                    </p>
+                </div>
+
+                <div class="timeline" id="timelineContainer">
+                    <div class="timeline-track"></div>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #d4a017"
+                        ></div>
+                        <div class="timeline-card" data-year="1930">
+                            <span class="timeline-year">1930</span>
+                            <h4>Uruguai</h4>
+                            <p>
+                                1ª Copa da História. 13 seleções, 18 jogos.
+                                Uruguai campeão sobre a Argentina na final do
+                                Centenário.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b5c7a"
+                        ></div>
+                        <div class="timeline-card" data-year="1934">
+                            <span class="timeline-year">1934</span>
+                            <h4>Itália</h4>
+                            <p>
+                                Primeira com eliminatórias. 16 seleções, formato
+                                eliminatório direto. Itália 2-1 Tchecoslováquia.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #4a3b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="1938">
+                            <span class="timeline-year">1938</span>
+                            <h4>França</h4>
+                            <p>
+                                Itália bicampeã (4-2 Hungria). Primeira Copa com
+                                o atual campeão classificado automaticamente.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #1a6b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1950">
+                            <span class="timeline-year">1950</span>
+                            <h4>Brasil</h4>
+                            <p>
+                                Primeira após a guerra. Uruguai campeão no
+                                "Maracanazo" (2-1). Formato de grupo final
+                                inédito.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #5c6b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1954">
+                            <span class="timeline-year">1954</span>
+                            <h4>Suíça</h4>
+                            <p>
+                                Alemanha Ocidental campeã no "Milagre de Berna"
+                                (3-2 Hungria). Maior média de gols: 5,38/jogo.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b6b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="1958">
+                            <span class="timeline-year">1958</span>
+                            <h4>Suécia</h4>
+                            <p>
+                                Brasil campeão pela primeira vez. Pelé (17 anos)
+                                brilha. Maior goleada em final: 5-2.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #6b3b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1962">
+                            <span class="timeline-year">1962</span>
+                            <h4>Chile</h4>
+                            <p>
+                                Brasil bicampeão com Pelé lesionado. Garrincha
+                                assume. 4 seleções com 100% de aproveitamento.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b3b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="1966">
+                            <span class="timeline-year">1966</span>
+                            <h4>Inglaterra</h4>
+                            <p>
+                                Inglaterra campeã em casa (4-2 Alemanha Oc.).
+                                Único título inglês. Polêmica final.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #6b6b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1970">
+                            <span class="timeline-year">1970</span>
+                            <h4>México</h4>
+                            <p>
+                                Brasil tricampeão com o melhor time da história
+                                (4-1 Itália). Pelé eterno.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #2b4b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1974">
+                            <span class="timeline-year">1974</span>
+                            <h4>Alemanha Oc.</h4>
+                            <p>
+                                Alemanha campeã (2-1 Holanda). "Carrossel
+                                Holandês" de Cruyff vice. Novo troféu.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #4b3b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="1978">
+                            <span class="timeline-year">1978</span>
+                            <h4>Argentina</h4>
+                            <p>
+                                Argentina campeã em casa (3-1 Holanda). Kempes
+                                artilheiro. Polêmica fase de grupos.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #6b4b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1982">
+                            <span class="timeline-year">1982</span>
+                            <h4>Espanha</h4>
+                            <p>
+                                Itália campeã (3-1 Alemanha). Rossi artilheiro.
+                                Primeira com 24 seleções.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #6b3b4b"
+                        ></div>
+                        <div class="timeline-card" data-year="1986">
+                            <span class="timeline-year">1986</span>
+                            <h4>México</h4>
+                            <p>
+                                Argentina campeã com Maradona genial (3-2
+                                Alemanha). "Mão de Deus" e "Gol do Século".
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b4b5b"
+                        ></div>
+                        <div class="timeline-card" data-year="1990">
+                            <span class="timeline-year">1990</span>
+                            <h4>Itália</h4>
+                            <p>
+                                Alemanha unificada campeã (1-0 Argentina). Menor
+                                média de gols: 2,21.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #2b5b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="1994">
+                            <span class="timeline-year">1994</span>
+                            <h4>Estados Unidos</h4>
+                            <p>
+                                Brasil tetracampeão nos pênaltis (0-0, 3-2).
+                                Primeira final sem gols. Romário MVP.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b3b5b"
+                        ></div>
+                        <div class="timeline-card" data-year="1998">
+                            <span class="timeline-year">1998</span>
+                            <h4>França</h4>
+                            <p>
+                                França campeã em casa (3-0 Brasil). Zidane.
+                                Primeira com 32 seleções.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #5b3b5b"
+                        ></div>
+                        <div class="timeline-card" data-year="2002">
+                            <span class="timeline-year">2002</span>
+                            <h4>Coreia / Japão</h4>
+                            <p>
+                                Brasil pentacampeão (2-0 Alemanha). Ronaldo
+                                artilheiro (8 gols). Primeira na Ásia.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #4b6b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="2006">
+                            <span class="timeline-year">2006</span>
+                            <h4>Alemanha</h4>
+                            <p>
+                                Itália tetracampeã nos pênaltis (1-1, 5-3).
+                                Zidane cabeçada. Klose artilheiro (5).
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #6b5b3b"
+                        ></div>
+                        <div class="timeline-card" data-year="2010">
+                            <span class="timeline-year">2010</span>
+                            <h4>África do Sul</h4>
+                            <p>
+                                Espanha campeã (1-0 Holanda). Iniesta na final.
+                                Primeira Copa na África.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #3b6b4b"
+                        ></div>
+                        <div class="timeline-card" data-year="2014">
+                            <span class="timeline-year">2014</span>
+                            <h4>Brasil</h4>
+                            <p>
+                                Alemanha tetracampeã (1-0 Argentina). 7-1
+                                histórico. Müller artilheiro.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #4b3b6b"
+                        ></div>
+                        <div class="timeline-card" data-year="2018">
+                            <span class="timeline-year">2018</span>
+                            <h4>Rússia</h4>
+                            <p>
+                                França bicampeã (4-2 Croácia). Mbappé. VAR pela
+                                primeira vez.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="timeline-item">
+                        <div
+                            class="timeline-marker"
+                            style="--marker-color: #8a1538"
+                        ></div>
+                        <div class="timeline-card" data-year="2022">
+                            <span class="timeline-year">2022</span>
+                            <h4>Catar</h4>
+                            <p>
+                                Argentina campeã com Messi. Final histórica
+                                (3-3, 4-2 pen). Mbappé 8 gols.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CHAMPIONS ===== -->
+        <section class="section section-alt" id="champions">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Campeões</span>
+                    <h2 class="section-title">Galeria de Campeões</h2>
+                    <p class="section-desc">
+                        Os 8 países que ergueram a taça mais cobiçada do
+                        futebol.
+                    </p>
+                </div>
+
+                <div class="champions-grid">
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★★★★</div>
+                            <h3>Brasil</h3>
+                            <p class="champion-years">
+                                1958, 1962, 1970, 1994, 2002
+                            </p>
+                            <p>
+                                O maior campeão da história. Pelé, Garrincha,
+                                Romário, Ronaldo — o país do futebol.
+                            </p>
+                            <div class="champion-flag">🇧🇷</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★★★</div>
+                            <h3>Alemanha</h3>
+                            <p class="champion-years">1954, 1974, 1990, 2014</p>
+                            <p>
+                                Eficiência e tradição. Beckenbauer, Klose,
+                                Müller. Tetracampeã.
+                            </p>
+                            <div class="champion-flag">🇩🇪</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★★★</div>
+                            <h3>Itália</h3>
+                            <p class="champion-years">1934, 1938, 1982, 2006</p>
+                            <p>
+                                Defesa lendária e raça. Meazza, Rossi, Cannavaro
+                                — a Azzurra.
+                            </p>
+                            <div class="champion-flag">🇮🇹</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★★</div>
+                            <h3>Argentina</h3>
+                            <p class="champion-years">1978, 1986, 2022</p>
+                            <p>
+                                Maradona, Messi, Kempes. Tricampeã
+                                sul-americana.
+                            </p>
+                            <div class="champion-flag">🇦🇷</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★</div>
+                            <h3>França</h3>
+                            <p class="champion-years">1998, 2018</p>
+                            <p>
+                                Bicampeã com Zidane e Mbappé. A nova potência do
+                                futebol mundial.
+                            </p>
+                            <div class="champion-flag">🇫🇷</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★★</div>
+                            <h3>Uruguai</h3>
+                            <p class="champion-years">1930, 1950</p>
+                            <p>
+                                Bicampeão e dono da primeira Copa. O
+                                "Maracanazo" é eterno.
+                            </p>
+                            <div class="champion-flag">🇺🇾</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★</div>
+                            <h3>Inglaterra</h3>
+                            <p class="champion-years">1966</p>
+                            <p>Campeã em casa. Único título inglês.</p>
+                            <div class="champion-flag">🇬🇧</div>
+                        </div>
+                    </article>
+
+                    <article class="champion-card" tabindex="0">
+                        <div class="champion-body">
+                            <div class="champion-stars">★</div>
+                            <h3>Espanha</h3>
+                            <p class="champion-years">2010</p>
+                            <p>Tiki-taka e Iniesta. Campeã na África do Sul.</p>
+                            <div class="champion-flag">🇪🇸</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== EDITIONS ===== -->
+        <section class="section" id="editions">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Edições</span>
+                    <h2 class="section-title">Todas as Copas do Mundo</h2>
+                    <p class="section-desc">
+                        Explore cada uma das 22 edições da Copa do Mundo FIFA,
+                        da primeira à última.
+                    </p>
+                </div>
+
+                <div
+                    class="filters"
+                    role="tablist"
+                    aria-label="Filtrar por década"
+                >
+                    <button
+                        class="filter-btn active"
+                        data-filter="all"
+                        role="tab"
+                        aria-selected="true"
+                    >
+                        Todas
+                    </button>
+                    <button class="filter-btn" data-filter="1930s" role="tab">
+                        1930s
+                    </button>
+                    <button class="filter-btn" data-filter="1950s" role="tab">
+                        1950s
+                    </button>
+                    <button class="filter-btn" data-filter="1960s" role="tab">
+                        1960s
+                    </button>
+                    <button class="filter-btn" data-filter="1970s" role="tab">
+                        1970s
+                    </button>
+                    <button class="filter-btn" data-filter="1980s" role="tab">
+                        1980s
+                    </button>
+                    <button class="filter-btn" data-filter="1990s" role="tab">
+                        1990s
+                    </button>
+                    <button class="filter-btn" data-filter="2000s" role="tab">
+                        2000s
+                    </button>
+                    <button class="filter-btn" data-filter="2010s" role="tab">
+                        2010s
+                    </button>
+                </div>
+
+                <div class="editions-grid" id="editionsGrid" role="list">
+                    <article
+                        class="edition-card"
+                        data-era="1930s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a5a2a"
+                        >
+                            <span class="edition-year">1930</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Uruguai</span>
+                                <span>📅 13–30 jul</span>
+                            </div>
+                            <h3>1ª Copa do Mundo</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 13 seleções · 18 jogos · 70 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇺🇾 <strong>Uruguai</strong> 4–2 Argentina
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Stábile 8 gols · Estádio
+                                Centenário
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1930s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a3a5a"
+                        >
+                            <span class="edition-year">1934</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Itália</span>
+                                <span>📅 27 mai–10 jun</span>
+                            </div>
+                            <h3>Eliminatórias estreiam</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 17 jogos · 70 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇮🇹 <strong>Itália</strong> 2–1
+                                Tchecoslováquia
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Nejedlý 5 gols · Stadio del
+                                Partito
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1930s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #3a1a5a"
+                        >
+                            <span class="edition-year">1938</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 França</span>
+                                <span>📅 4–19 jun</span>
+                            </div>
+                            <h3>Itália bicampeã</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 15 seleções · 18 jogos · 84 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇮🇹 <strong>Itália</strong> 4–2 Hungria
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Leônidas 7 gols · Stade
+                                Olympique
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1950s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a5a3a"
+                        >
+                            <span class="edition-year">1950</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Brasil</span>
+                                <span>📅 24 jun–16 jul</span>
+                            </div>
+                            <h3>O Maracanazo</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 13 seleções · 22 jogos · 88 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇺🇾 <strong>Uruguai</strong> 2–1 Brasil
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Ademir 9 gols · Maracanã
+                                (199.854)
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1950s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #4a5a1a"
+                        >
+                            <span class="edition-year">1954</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Suíça</span>
+                                <span>📅 16 jun–4 jul</span>
+                            </div>
+                            <h3>Milagre de Berna</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 26 jogos · 140
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇩🇪 <strong>Alemanha Oc.</strong> 3–2 Hungria
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Kocsis 11 gols · Wankdorf
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1950s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a4a5a"
+                        >
+                            <span class="edition-year">1958</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Suécia</span>
+                                <span>📅 8–29 jun</span>
+                            </div>
+                            <h3>Brasil e Pelé</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 35 jogos · 126
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇧🇷 <strong>Brasil</strong> 5–2 Suécia
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Fontaine 13 gols · Råsunda
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1960s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #4a1a1a"
+                        >
+                            <span class="edition-year">1962</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Chile</span>
+                                <span>📅 30 mai–17 jun</span>
+                            </div>
+                            <h3>Brasil bicampeão</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 32 jogos · 89 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇧🇷 <strong>Brasil</strong> 3–1
+                                Tchecoslováquia
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> 6 c/ 4 gols · Estádio Nacional
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1960s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a1a5a"
+                        >
+                            <span class="edition-year">1966</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Inglaterra</span>
+                                <span>📅 11–30 jul</span>
+                            </div>
+                            <h3>Inglaterra campeã</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 32 jogos · 89 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇬🇧 <strong>Inglaterra</strong> 4–2 Alemanha
+                                Oc.
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Eusébio 9 gols · Wembley
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1960s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #4a4a1a"
+                        >
+                            <span class="edition-year">1970</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 México</span>
+                                <span>📅 31 mai–21 jun</span>
+                            </div>
+                            <h3>O tri do Brasil</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 32 jogos · 95 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇧🇷 <strong>Brasil</strong> 4–1 Itália
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> G. Müller 10 gols · Azteca
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1970s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a3a2a"
+                        >
+                            <span class="edition-year">1974</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Alemanha Oc.</span>
+                                <span>📅 13 jun–7 jul</span>
+                            </div>
+                            <h3>Novo troféu</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 38 jogos · 97 gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇩🇪 <strong>Alemanha Oc.</strong> 2–1 Holanda
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Lato 7 gols · Olympiastadion
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1970s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a1a5a"
+                        >
+                            <span class="edition-year">1978</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Argentina</span>
+                                <span>📅 1–25 jun</span>
+                            </div>
+                            <h3>Argentina campeã</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 16 seleções · 38 jogos · 102
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇦🇷 <strong>Argentina</strong> 3–1 Holanda
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Kempes 6 gols · Monumental
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1980s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #3a1a3a"
+                        >
+                            <span class="edition-year">1982</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Espanha</span>
+                                <span>📅 13 jun–11 jul</span>
+                            </div>
+                            <h3>24 seleções</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 24 seleções · 52 jogos · 146
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇮🇹 <strong>Itália</strong> 3–1 Alemanha Oc.
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Rossi 6 gols · Bernabéu
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1980s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #4a1a2a"
+                        >
+                            <span class="edition-year">1986</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 México</span>
+                                <span>📅 31 mai–29 jun</span>
+                            </div>
+                            <h3>Maradona</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 24 seleções · 52 jogos · 132
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇦🇷 <strong>Argentina</strong> 3–2 Alemanha
+                                Oc.
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Lineker 6 gols · Azteca
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1980s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a3a4a"
+                        >
+                            <span class="edition-year">1990</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Itália</span>
+                                <span>📅 8 jun–8 jul</span>
+                            </div>
+                            <h3>Defesa e tensão</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 24 seleções · 52 jogos · 115
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇩🇪 <strong>Alemanha Oc.</strong> 1–0
+                                Argentina
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Schillaci 6 gols · Olímpico
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1990s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a3a5a"
+                        >
+                            <span class="edition-year">1994</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Estados Unidos</span>
+                                <span>📅 17 jun–17 jul</span>
+                            </div>
+                            <h3>Tetra nos pênaltis</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 24 seleções · 52 jogos · 141
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇧🇷 <strong>Brasil</strong> 0–0 (3–2) Itália
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Salenko, Stoichkov 6 · Rose Bowl
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="1990s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #2a1a4a"
+                        >
+                            <span class="edition-year">1998</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 França</span>
+                                <span>📅 10 jun–12 jul</span>
+                            </div>
+                            <h3>32 seleções</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 171
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇫🇷 <strong>França</strong> 3–0 Brasil
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Šuker 6 gols · Stade de France
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2000s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #3a1a4a"
+                        >
+                            <span class="edition-year">2002</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Coreia / Japão</span>
+                                <span>📅 31 mai–30 jun</span>
+                            </div>
+                            <h3>Penta! Primeira na Ásia</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 161
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇧🇷 <strong>Brasil</strong> 2–0 Alemanha
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Ronaldo 8 gols · Yokohama
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2000s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a4a5a"
+                        >
+                            <span class="edition-year">2006</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Alemanha</span>
+                                <span>📅 9 jun–9 jul</span>
+                            </div>
+                            <h3>Itália tetracampeã</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 147
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇮🇹 <strong>Itália</strong> 1–1 (5–3) França
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Klose 5 gols · Olympiastadion
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2010s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #4a3a1a"
+                        >
+                            <span class="edition-year">2010</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 África do Sul</span>
+                                <span>📅 11 jun–11 jul</span>
+                            </div>
+                            <h3>Primeira na África</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 145
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇪🇸 <strong>Espanha</strong> 1–0 Holanda
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> 4 c/ 5 gols · Soccer City
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2010s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a5a3a"
+                        >
+                            <span class="edition-year">2014</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Brasil</span>
+                                <span>📅 12 jun–13 jul</span>
+                            </div>
+                            <h3>7–1 e tetro alemão</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 171
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇩🇪 <strong>Alemanha</strong> 1–0 Argentina
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> James 6 gols · Maracanã
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2010s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #1a3a5a"
+                        >
+                            <span class="edition-year">2018</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Rússia</span>
+                                <span>📅 14 jun–15 jul</span>
+                            </div>
+                            <h3>França e Mbappé</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 169
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇫🇷 <strong>França</strong> 4–2 Croácia
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Kane 6 gols · Luzhniki
+                            </div>
+                        </div>
+                    </article>
+
+                    <article
+                        class="edition-card"
+                        data-era="2010s"
+                        role="listitem"
+                    >
+                        <div
+                            class="edition-head"
+                            style="--edition-color: #8a1538"
+                        >
+                            <span class="edition-year">2022</span>
+                            <span class="edition-emoji">🏆</span>
+                        </div>
+                        <div class="edition-body">
+                            <div class="edition-meta">
+                                <span>🌍 Catar</span>
+                                <span>📅 20 nov–18 dez</span>
+                            </div>
+                            <h3>Messi e a final histórica</h3>
+                            <div class="edition-detail">
+                                <span>👥</span> 32 seleções · 64 jogos · 172
+                                gols
+                            </div>
+                            <div class="edition-result">
+                                🏆 🇦🇷 <strong>Argentina</strong> 3–3 (4–2)
+                                França
+                            </div>
+                            <div class="edition-detail">
+                                <span>⚽</span> Mbappé 8 gols · Lusail
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== RECORDS ===== -->
+        <section class="section section-alt" id="records">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Recordes</span>
+                    <h2 class="section-title">Recordes Históricos</h2>
+                    <p class="section-desc">
+                        Os maiores feitos e momentos em 92 anos de Copa do
+                        Mundo.
+                    </p>
+                </div>
+
+                <div class="records-grid">
+                    <article class="record-card">
+                        <div class="record-icon trophy">🏆</div>
+                        <h4>Maior campeão</h4>
+                        <p class="record-value">Brasil</p>
+                        <p class="record-detail">
+                            5 títulos (1958, 62, 70, 94, 2002)
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon goal">⚽</div>
+                        <h4>Mais gols na história</h4>
+                        <p class="record-value">Miroslav Klose</p>
+                        <p class="record-detail">
+                            16 gols (2002–2014) · Alemanha
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon fire">🔥</div>
+                        <h4>Mais gols (uma edição)</h4>
+                        <p class="record-value">Just Fontaine</p>
+                        <p class="record-detail">13 gols em 1958 · França</p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon medal">🏅</div>
+                        <h4>Mais partidas</h4>
+                        <p class="record-value">Lionel Messi</p>
+                        <p class="record-detail">
+                            26 jogos (2006–2022) · Argentina
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon crown">👑</div>
+                        <h4>Mais títulos (jogador)</h4>
+                        <p class="record-value">Pelé</p>
+                        <p class="record-detail">
+                            3 títulos (1958, 62, 70) · Brasil
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon bomb">💥</div>
+                        <h4>Maior goleada</h4>
+                        <p class="record-value">Hungria 9–0 Coreia</p>
+                        <p class="record-detail">
+                            1954 (e Hungria 10–1 El Salvador 1982)
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon crowd">🏟️</div>
+                        <h4>Maior público</h4>
+                        <p class="record-value">Maracanã 1950</p>
+                        <p class="record-detail">
+                            ~199.854 · Brasil 1–2 Uruguai
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon star">⭐</div>
+                        <h4>Mais gols em final</h4>
+                        <p class="record-value">Kylian Mbappé</p>
+                        <p class="record-detail">3 gols em 2022 · França</p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon globe">🌍</div>
+                        <h4>Mais edições disputadas</h4>
+                        <p class="record-value">Brasil</p>
+                        <p class="record-detail">
+                            Participou de todas as 22 Copas
+                        </p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon trophy">🏆</div>
+                        <h4>Mais finais</h4>
+                        <p class="record-value">Alemanha</p>
+                        <p class="record-detail">8 finais (1954–2014)</p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon runner">🏃</div>
+                        <h4>Artilheiro mais velho</h4>
+                        <p class="record-value">Roger Milla</p>
+                        <p class="record-detail">42 anos (1994) · Camarões</p>
+                    </article>
+
+                    <article class="record-card">
+                        <div class="record-icon baby">👶</div>
+                        <h4>Jogador mais novo</h4>
+                        <p class="record-value">Pelé</p>
+                        <p class="record-detail">
+                            17 anos e 249 dias (1958) · Brasil
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== TOP SCORERS ===== -->
+        <section class="section" id="scorers">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Artilheiros</span>
+                    <h2 class="section-title">Maiores Artilheiros</h2>
+                    <p class="section-desc">
+                        Os jogadores que mais marcaram gols na história das
+                        Copas do Mundo.
+                    </p>
+                </div>
+
+                <div class="scorers-list">
+                    <div class="scorer-row">
+                        <span class="scorer-rank">1</span>
+                        <span class="scorer-flag">🇩🇪</span>
+                        <span class="scorer-name">Miroslav Klose</span>
+                        <span class="scorer-years">2002–2014</span>
+                        <span class="scorer-goals">16</span>
+                        <div class="scorer-bar" style="--pct: 100%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">2</span>
+                        <span class="scorer-flag">🇧🇷</span>
+                        <span class="scorer-name">Ronaldo Nazário</span>
+                        <span class="scorer-years">1994–2006</span>
+                        <span class="scorer-goals">15</span>
+                        <div class="scorer-bar" style="--pct: 93.75%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">3</span>
+                        <span class="scorer-flag">🇩🇪</span>
+                        <span class="scorer-name">Gerd Müller</span>
+                        <span class="scorer-years">1970–1974</span>
+                        <span class="scorer-goals">14</span>
+                        <div class="scorer-bar" style="--pct: 87.5%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">4</span>
+                        <span class="scorer-flag">🇫🇷</span>
+                        <span class="scorer-name">Just Fontaine</span>
+                        <span class="scorer-years">1958</span>
+                        <span class="scorer-goals">13</span>
+                        <div class="scorer-bar" style="--pct: 81.25%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">5</span>
+                        <span class="scorer-flag">🇧🇷</span>
+                        <span class="scorer-name">Pelé</span>
+                        <span class="scorer-years">1958–1970</span>
+                        <span class="scorer-goals">12</span>
+                        <div class="scorer-bar" style="--pct: 75%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">6</span>
+                        <span class="scorer-flag">🇭🇺</span>
+                        <span class="scorer-name">Sándor Kocsis</span>
+                        <span class="scorer-years">1954</span>
+                        <span class="scorer-goals">11</span>
+                        <div class="scorer-bar" style="--pct: 68.75%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">7</span>
+                        <span class="scorer-flag">🇩🇪</span>
+                        <span class="scorer-name">Jürgen Klinsmann</span>
+                        <span class="scorer-years">1990–1998</span>
+                        <span class="scorer-goals">11</span>
+                        <div class="scorer-bar" style="--pct: 68.75%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">8</span>
+                        <span class="scorer-flag">🇩🇪</span>
+                        <span class="scorer-name">Helmut Rahn</span>
+                        <span class="scorer-years">1954–1958</span>
+                        <span class="scorer-goals">10</span>
+                        <div class="scorer-bar" style="--pct: 62.5%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">9</span>
+                        <span class="scorer-flag">🇦🇷</span>
+                        <span class="scorer-name">Gabriel Batistuta</span>
+                        <span class="scorer-years">1994–2002</span>
+                        <span class="scorer-goals">10</span>
+                        <div class="scorer-bar" style="--pct: 62.5%"></div>
+                    </div>
+                    <div class="scorer-row">
+                        <span class="scorer-rank">10</span>
+                        <span class="scorer-flag">🇬🇧</span>
+                        <span class="scorer-name">Gary Lineker</span>
+                        <span class="scorer-years">1986–1990</span>
+                        <span class="scorer-goals">10</span>
+                        <div class="scorer-bar" style="--pct: 62.5%"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CURIOSITIES ===== -->
+        <section class="section section-alt" id="curiosities">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-tag">Fatos</span>
+                    <h2 class="section-title">Curiosidades</h2>
+                    <p class="section-desc">
+                        Fatos fascinantes sobre 92 anos de história da Copa do
+                        Mundo.
+                    </p>
+                </div>
+
+                <div class="curiosities-grid">
+                    <article class="curio-card">
+                        <span class="curio-num">01</span>
+                        <h4>Primeiro gol da história</h4>
+                        <p>
+                            O francês Lucien Laurent marcou o primeiro gol da
+                            história das Copas, aos 19 min de França 4–1 México,
+                            no Estádio Pocitos em 1930.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">02</span>
+                        <h4>Brasil presente em todas</h4>
+                        <p>
+                            O Brasil é o único país que participou de todas as
+                            22 edições da Copa do Mundo, de 1930 a 2022.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">03</span>
+                        <h4>A Copa que não aconteceu</h4>
+                        <p>
+                            Em 1942 e 1946 a Copa não foi realizada devido à
+                            Segunda Guerra Mundial. Estava prevista para a
+                            Alemanha em 1942.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">04</span>
+                        <h4>Dois troféus diferentes</h4>
+                        <p>
+                            A Copa já teve dois troféus: a Taça Jules Rimet
+                            (1930–1970) e o Troféu da Copa do Mundo FIFA
+                            (1974–presente).
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">05</span>
+                        <h4>Maior artilheiro em uma edição</h4>
+                        <p>
+                            Just Fontaine marcou 13 gols na Copa de 1958 —
+                            recorde para uma única edição. Ele usava chuteiras
+                            emprestadas!
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">06</span>
+                        <h4>Final com duas bolas</h4>
+                        <p>
+                            Na final de 1930, Uruguai e Argentina usaram bolas
+                            diferentes em cada tempo. Uruguai venceu com a "sua"
+                            bola.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">07</span>
+                        <h4>Hat-trick mais rápido</h4>
+                        <p>
+                            László Kiss marcou 3 gols em 7 minutos saindo do
+                            banco contra El Salvador em 1982 (Hungria 10–1).
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">08</span>
+                        <h4>O dono da camisa 10</h4>
+                        <p>
+                            Pelé popularizou a camisa 10, mas o número só foi
+                            fixado a partir de 1954. Antes, os números seguiam a
+                            posição tática.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">09</span>
+                        <h4>Seleções extintas</h4>
+                        <p>
+                            Tchecoslováquia, Iugoslávia, Alemanha Oriental, URSS
+                            e outras já participaram da Copa e hoje não existem
+                            mais.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">10</span>
+                        <h4>Média de gols em queda</h4>
+                        <p>
+                            A média caiu de 3,89 (1930) para 2,69 (2022). O
+                            recorde é de 1954: 5,38 gols por partida.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">11</span>
+                        <h4>Maior virada em final</h4>
+                        <p>
+                            A final de 2022 (Argentina 3–3 França) é considerada
+                            a maior da história. A França buscou 2–0 nos
+                            acréscimos.
+                        </p>
+                    </article>
+                    <article class="curio-card">
+                        <span class="curio-num">12</span>
+                        <h4>O "Milagre de Berna"</h4>
+                        <p>
+                            Em 1954, a Alemanha Ocidental venceu a Hungria (que
+                            a goleara 8–3 na fase de grupos) por 3–2 na final.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== FOOTER / CLOSING ===== -->
+        <section class="closing">
+            <div class="container">
+                <div class="closing-content">
+                    <h2>92 Anos de História</h2>
+                    <p>
+                        De 1930 a 2022, a Copa do Mundo cresceu de 13 seleções e
+                        18 jogos para 32 seleções e 64 partidas. Oito países
+                        diferentes levantaram a taça, e mais de 2.700 gols foram
+                        marcados.
+                    </p>
+                    <p>
+                        Lendas como Pelé, Maradona, Cruyff, Zidane, Klose e
+                        Messi escreveram seus nomes na história do esporte mais
+                        amado do planeta.
+                    </p>
+                    <a href="#home" class="btn btn-primary">Voltar ao topo</a>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-brand">
+                        <h3>World Cup 1930–2022</h3>
+                        <p>
+                            Projeto informativo sobre todas as edições da Copa
+                            do Mundo FIFA. Feito por Deividy Oliveira
+                            Krenciglova, aluno do 2° Ano de Desenvolvimento de
+                            Sistemas do Colegio Estadual Barbosa Ferraz
+                        </p>
+                    </div>
+                    <div class="footer-nav">
+                        <h4>Navegação</h4>
+                        <ul>
+                            <li><a href="#timeline">História</a></li>
+                            <li><a href="#champions">Campeões</a></li>
+                            <li><a href="#editions">Edições</a></li>
+                            <li><a href="#records">Recordes</a></li>
+                            <li><a href="#curiosities">Curiosidades</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-source">
+                        <h4>Fontes</h4>
+                        <p>
+                            Dados oficiais da FIFA, RSSSF e arquivos históricos.
+                            Precisão verificada até a data de publicação.
+                        </p>
+                        <p class="footer-copy">© 2026 — Projeto Educacional</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
